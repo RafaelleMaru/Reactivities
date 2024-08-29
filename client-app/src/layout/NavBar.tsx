@@ -30,7 +30,7 @@ export default observer(function NavBar() {
 						avatar
 						spaced='right'
 					/>
-					<Dropdown pointing='top-left' text={user?.displayName}>
+					<Dropdown pointing='top left' text={user?.displayName}>
 						<Dropdown.Menu>
 							<Dropdown.Item
 								as={Link}
